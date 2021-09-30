@@ -56,7 +56,7 @@ export default function Highlighter ({
   children,
   ...rest
 }) {
-  textToHighlight = textToHighlight || children;
+  textToHighlight = textToHighlight || children
   const chunks = findAll({
     autoEscape,
     caseSensitive,
